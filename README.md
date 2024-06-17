@@ -10,7 +10,7 @@
 ### Table of Contents
 | Sr.No.        | Question      | 
 | ------------- |-------------| 
-| 1             |[What is difference between @Override & Overload ?](https://github.com/6531503042/Java-Prep-Interview/blob/main/README.md#1-what-is-difference-between-override--overload) |
+| 1             |[What is the difference between @Override & Overload?](#1-what-is-the-difference-between-override--overload) |
 | 2             |[Difference between GET & POST METHODS?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#2-difference-between-get--post-methods) |
 | 3             |[Difference between forward() method & SendRedirect() method?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#3-difference-between-forward-method--sendredirect-method) |
 | 4             |[Difference between HashMap and HashTable?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#4-difference-between-hashmap-and-hashtable) |
