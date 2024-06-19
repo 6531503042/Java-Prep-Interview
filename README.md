@@ -10,12 +10,12 @@
 ### Table of Contents
 | Sr.No.        | Question      | 
 | ------------- |-------------| 
-| 1             |[What is the difference between @Override & Overload?](#1-what-is-the-difference-between-override--overload) |
-| 2             |[Difference between GET & POST METHODS?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#2-difference-between-get--post-methods) |
+| 1             |[What is the difference between @Override & Overload?](https://github.com/6531503042/Java-Prep-Interview/blob/main/README.md#1-What-is-the-difference-between-Override-and-Overload) |
+| 2             |[What's an abstract class in java?](https://github.com/6531503042/Java-Prep-Interview/blob/main/README.md#2-What-is-an-abstract-class-in-java) |
 | 3             |[Difference between forward() method & SendRedirect() method?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#3-difference-between-forward-method--sendredirect-method) |
 | 4             |[Difference between HashMap and HashTable?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#4-difference-between-hashmap-and-hashtable) |
 
-### 1. What is difference between @Override & Overload ?
+### 1. What is difference between Override and Overload
 
 ## - Override - Annotation -> @Override
 
@@ -106,7 +106,9 @@ Sum of 10 and 20.5: 30.5
 
 ```
 
-**[Back to Top](https://github.com/6531503042/Java-Prep-Interview/blob/main/README.md#Java-Prep-Interview)**
+**[Back to Top](https://raw.githubusercontent.com/6531503042/Java-Prep-Interview/main/README.md#Java-Prep-Interview)**
+
+
 
 
 
@@ -125,3 +127,41 @@ Sum of 10 and 20.5: 30.5
 
 
 
+
+### 2. What is an abstract class in java
+<br>
+An abstract class in Java is a class that is declared with the `abstract` keyword. It can have both abstract methods (methods without a body) and non-abstract methods (method with a body).
+Abstract classes are used to represent general concept (like "Animal" or "Vehicle") From which other classes can inherit.
+Abstract classes cannot be instantiated directly; they need to be sub-classed by concrete (non-abstract) classes that provide implementations for the abstract methods.
+
+Example
+````java
+// Abstract class
+abstract class Animal {
+    // Abstract method (does not have a body)
+    abstract void makeSound();
+    
+    // Concrete method
+    void sleep() {
+        System.out.println("Animal is sleeping");
+    }
+}
+
+// Subclass (inherited from Animal)
+class Dog extends Animal {
+    // Providing implementation for the abstract method
+    @Override
+    void makeSound() {
+        System.out.println("Dog barks");
+    }
+    
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.makeSound(); // Output: Dog barks
+        dog.sleep();     // Output: Animal is sleeping
+    }
+}
+
+````
+
+**[Back to Top](https://github.com/6531503042/Java-Prep-Interview/blob/main/README.md#Java-Prep-Interview)**
