@@ -10,14 +10,12 @@
 ### Table of Contents
 | Sr.No.        | Question      | 
 | ------------- |-------------| 
-| 1             |[What is the difference between @Override & Overload?](https://github.com/6531503042/Java-Prep-Interview/blob/main/README.md#1-What-is-the-difference-between-Override-and-Overload) |
+| 1             |[What is the difference between @Override & Overload?](https://github.com/6531503042/Java-Prep-Interview/blob/main/README.md#1What-is-difference-between-override-and-overload) |
 | 2             |[What's an abstract class in java?](https://github.com/6531503042/Java-Prep-Interview/blob/main/README.md#2-What-is-an-abstract-class-in-java) |
 | 3             |[Difference between forward() method & SendRedirect() method?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#3-difference-between-forward-method--sendredirect-method) |
 | 4             |[Difference between HashMap and HashTable?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#4-difference-between-hashmap-and-hashtable) |
 
-### 1. What is difference between Override and Overload
-
-## - Override - Annotation -> @Override
+### 1. What is difference between override and overload
 
 1. **Same Method Signature**: The method in the subclass must have the same name, return type, and parameter list as the method in the superclass.
 2. **Annotation**: It is good practice to use the `@Override` annotation to indicate that a method is being overridden.
@@ -56,7 +54,6 @@ public class Main {
  - The Overriding method can throw any `Unchecked (runtime)` exceptions, whenever the overrided methood delcares them or not, But we can't throw `Checked` exception that are new or broaded than those declared by the overrided method. 
  - Method overriding is a key feature of polymorphism in Java. It allows a subclass to be treated as an instance of its superclass, and the overridden method will be called based on the actual object type (at runtime), not the reference type. -->
 
-## - Overload - Annotation -> @Overload
 
 1. **Same Method Name**: Overloaded methods must have the same name.
 2. **Different Parameter Lists**: Overloaded methods must differ in the number, type, or order of parameters.
